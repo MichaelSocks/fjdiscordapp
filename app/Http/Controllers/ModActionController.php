@@ -376,7 +376,7 @@ class ModActionController extends Controller
                 $slack->username = 'FREE GIFTS';
                 $slack->avatar = 'https://i.imgur.com/9u7JJeX.png';
                 $slack->title = 'Mentioning hek is cool!';
-                $slack->text =  'First person to mention hek, gets lots of yummies';
+                $slack->text =  'First person to mention hek, gets lots of yummies. BluRay can eat a dick though.';
                 $slack->embedFields = [];
                 $slack->color = "warning";
                 \Notification::send($slack, new \App\Notifications\ModNotify(null));
